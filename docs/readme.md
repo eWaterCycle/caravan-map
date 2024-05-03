@@ -1,3 +1,4 @@
+![overview_image](overview_image.png)
 ### Links to maps per country:
 [United States of America](caravan_catchments_map_United_States_of_America.html)<br>
 [Australia](caravan_catchments_map_Australia.html)<br>
