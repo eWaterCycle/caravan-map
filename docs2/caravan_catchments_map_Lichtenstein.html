@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1b1113391f236e35f032a9ba2b3b7d61 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1b1113391f236e35f032a9ba2b3b7d61" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1b1113391f236e35f032a9ba2b3b7d61 = L.map(
+                "map_1b1113391f236e35f032a9ba2b3b7d61",
+                {
+                    center: [47.13547364353811, 9.533423988145884],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0fdedf4eb5581e34fc62ca1ae16af72c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_0fdedf4eb5581e34fc62ca1ae16af72c.addTo(map_1b1113391f236e35f032a9ba2b3b7d61);
+        
+    
+
+        function geo_json_d61f8cdf4b314f18ef5a877b06f94c72_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_d61f8cdf4b314f18ef5a877b06f94c72 = L.geoJson(null, {
+                onEachFeature: geo_json_d61f8cdf4b314f18ef5a877b06f94c72_onEachFeature,
+            
+            ...{
+}
+        });
+
+        function geo_json_d61f8cdf4b314f18ef5a877b06f94c72_add (data) {
+            geo_json_d61f8cdf4b314f18ef5a877b06f94c72
+                .addData(data);
+        }
+            geo_json_d61f8cdf4b314f18ef5a877b06f94c72_add({"bbox": [9.472534076383777, 47.02720395485288, 9.594313899907993, 47.243743332223346], "features": [{"bbox": [9.472534076383777, 47.02720395485288, 9.594313899907993, 47.243743332223346], "geometry": {"coordinates": [[[9.539456176461437, 47.032766041751515], [9.523934994038612, 47.02720395485288], [9.520356830822905, 47.03202704396577], [9.508697647311054, 47.03649349344501], [9.499470810704262, 47.043370546586864], [9.492656218961994, 47.04364451440687], [9.489902239408332, 47.04671285786775], [9.483127851747135, 47.047986716474604], [9.479047137517988, 47.05349272307448], [9.475649892667116, 47.05430077073662], [9.472534076383777, 47.0618602167396], [9.475669994707653, 47.06632416880147], [9.491711423056719, 47.07259497919236], [9.513753310506281, 47.084901695290085], [9.520316626741844, 47.09253891697063], [9.51986935633987, 47.12028647910133], [9.509758029949436, 47.143699198009], [9.499928132126508, 47.15246263999098], [9.49319394854639, 47.162605100876696], [9.487364356790458, 47.18061618106031], [9.491545581222292, 47.198047492654624], [9.500913132112847, 47.21214135673054], [9.503084152490915, 47.22118021674257], [9.522542927731394, 47.243743332223346], [9.512089866651811, 47.23054514399788], [9.509476601381907, 47.22247720769659], [9.528955478662917, 47.22724167049216], [9.529397723554743, 47.22309156075806], [9.537016396918522, 47.225262217890034], [9.556475172158985, 47.233411627706204], [9.567440478225766, 47.242948648779375], [9.59243450279949, 47.23056365988344], [9.594313899907993, 47.21887224170932], [9.59123505367682, 47.20957754309254], [9.583731071953672, 47.20434702220693], [9.579599137095324, 47.19504511081829], [9.572578773534646, 47.19128329371901], [9.57402326030345, 47.17790704222815], [9.567602177854095, 47.17394189942821], [9.556479691511555, 47.159527476235304], [9.551284516736423, 47.141455345402115], [9.558725424382242, 47.13205010332385], [9.566798889344323, 47.09586018699405], [9.571561302082108, 47.08926132113576], [9.566196631000587, 47.07725232600848], [9.571800175242757, 47.07307932205138], [9.5760278814509, 47.065586794618106], [9.589294273577774, 47.05647956621708], [9.556781728277175, 47.04813738591075], [9.539456176461437, 47.032766041751515]]], "type": "Polygon"}, "id": "lamah_2410", "properties": {"area": 113.63302111643064, "aridity_ERA5_LAND": 0.680749, "basin_id": "lamah_2410", "country": "Lichtenstein", "frac_snow": 0.19633102, "high_prec_dur": 1.1695403, "high_prec_freq": 0.027857631, "low_prec_dur": 2.8769162, "low_prec_freq": 0.43675566, "moisture_index_ERA5_LAND": 0.37888217, "name": "Liechtensteiner Binnenkanal at Ruggell", "p_mean": 5.238234, "pet_mean_ERA5_LAND": 3.5659227, "seasonality_ERA5_LAND": 0.9210344}, "type": "Feature"}], "type": "FeatureCollection"});
+        geo_json_d61f8cdf4b314f18ef5a877b06f94c72.setStyle(function(feature) {return feature.properties.style;});
+
+        
+    
+    geo_json_d61f8cdf4b314f18ef5a877b06f94c72.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature => {
+        if (feature === null) {
+            return '';
+        } else if (typeof(feature)=='object') {
+            return JSON.stringify(feature);
+        } else {
+            return feature;
+        }
+    }
+    let fields = ["basin_id", "name", "country", "area", "p_mean", "pet_mean_ERA5_LAND", "aridity_ERA5_LAND", "frac_snow", "moisture_index_ERA5_LAND", "seasonality_ERA5_LAND", "high_prec_freq", "high_prec_dur", "low_prec_freq", "low_prec_dur"];
+    let aliases = ["basin_id", "name", "country", "area", "p_mean", "pet_mean_ERA5_LAND", "aridity_ERA5_LAND", "frac_snow", "moisture_index_ERA5_LAND", "seasonality_ERA5_LAND", "high_prec_freq", "high_prec_dur", "low_prec_freq", "low_prec_dur"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{
+  "className": "foliumpopup",
+});
+                     
+    
+            geo_json_d61f8cdf4b314f18ef5a877b06f94c72.addTo(map_1b1113391f236e35f032a9ba2b3b7d61);
+        
+</script>
+</html>
