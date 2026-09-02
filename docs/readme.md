@@ -8,6 +8,8 @@ To learn more about eWaterCycle see the [website](https://ewatercycle.org) or th
 
 These maps are meant to easily explore the availible catchments and find corresponding basin_ids which are needed to generate the forcing data.. 
 
+This is Caravan 1.0, for Caravan 1.6 scroll down
+
 ![overview_image](overview_image.png)
 ### Links to interactive maps per country:
 [United States of America](caravan_catchments_map_United_States_of_America.html)<br>
@@ -24,3 +26,7 @@ These maps are meant to easily explore the availible catchments and find corresp
 [Austria](caravan_catchments_map_Austria.html)<br>
 [Lichtenstein](caravan_catchments_map_Lichtenstein.html)<br>
 [Czech Republic](caravan_catchments_map_Czech_Republic.html)<br>
+
+
+## CARAVAN 1.6
+
