@@ -30,3 +30,27 @@ This is Caravan 1.0, for Caravan 1.6 scroll down
 
 ## CARAVAN 1.6
 
+![overview_image](v1_6/overview_image_v1_6.png)
+### Links to interactive maps per country:
+[Australia](v1_6/caravan_catchments_map_Australia.html)<br>
+[Austria](v1_6/caravan_catchments_map_Austria.html)<br>
+[Brazil](v1_6/caravan_catchments_map_Brazil.html)<br>
+[Canada](v1_6/caravan_catchments_map_Canada.html)<br>
+[Chile](v1_6/caravan_catchments_map_Chile.html)<br>
+[Czech Republic](v1_6/caravan_catchments_map_Czech_Republic.html)<br>
+[England](v1_6/caravan_catchments_map_England.html)<br>
+[Germany](v1_6/caravan_catchments_map_Germany.html)<br>
+[Great Britain](v1_6/caravan_catchments_map_Great_Britain.html)<br>
+[Lichtenstein](v1_6/caravan_catchments_map_Lichtenstein.html)<br>
+[Mexico](v1_6/caravan_catchments_map_Mexico.html)<br>
+[Scotland](v1_6/caravan_catchments_map_Scotland.html)<br>
+[Switzerland](v1_6/caravan_catchments_map_Switzerland.html)<br>
+[United States of America](v1_6/caravan_catchments_map_United_States_of_America.html)<br>
+[Wales](v1_6/caravan_catchments_map_Wales.html)<br>
+
+To get this dataset on SRC run this in terminal:
+```
+export CARAVAN_CACHE=/data/shared/climate-data/caravan1_6
+```
+
+NOTE: need eWaterCycle version 2.5 for Caravan 1.6
