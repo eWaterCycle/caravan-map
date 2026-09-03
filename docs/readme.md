@@ -8,25 +8,7 @@ To learn more about eWaterCycle see the [website](https://ewatercycle.org) or th
 
 These maps are meant to easily explore the availible catchments and find corresponding basin_ids which are needed to generate the forcing data.. 
 
-This is Caravan 1.0, for Caravan 1.6 scroll down
-
-![overview_image](overview_image.png)
-### Links to interactive maps per country:
-[United States of America](caravan_catchments_map_United_States_of_America.html)<br>
-[Australia](caravan_catchments_map_Australia.html)<br>
-[Brazil](caravan_catchments_map_Brazil.html)<br>
-[Chile](caravan_catchments_map_Chile.html)<br>
-[Scotland](caravan_catchments_map_Scotland.html)<br>
-[England](caravan_catchments_map_England.html)<br>
-[Wales](caravan_catchments_map_Wales.html)<br>
-[Canada](caravan_catchments_map_Canada.html)<br>
-[Mexico](caravan_catchments_map_Mexico.html)<br>
-[Germany](caravan_catchments_map_Germany.html)<br>
-[Switzerland](caravan_catchments_map_Switzerland.html)<br>
-[Austria](caravan_catchments_map_Austria.html)<br>
-[Lichtenstein](caravan_catchments_map_Lichtenstein.html)<br>
-[Czech Republic](caravan_catchments_map_Czech_Republic.html)<br>
-
+This is Caravan 1.6, for Caravan 1.0 scroll down
 
 ## CARAVAN 1.6
 
@@ -54,3 +36,27 @@ export CARAVAN_CACHE=/data/shared/climate-data/caravan1_6
 ```
 
 NOTE: need eWaterCycle version 2.5 for Caravan 1.6
+
+## CARAVAN 1.0
+
+![overview_image](overview_image.png)
+### Links to interactive maps per country:
+[United States of America](caravan_catchments_map_United_States_of_America.html)<br>
+[Australia](caravan_catchments_map_Australia.html)<br>
+[Brazil](caravan_catchments_map_Brazil.html)<br>
+[Chile](caravan_catchments_map_Chile.html)<br>
+[Scotland](caravan_catchments_map_Scotland.html)<br>
+[England](caravan_catchments_map_England.html)<br>
+[Wales](caravan_catchments_map_Wales.html)<br>
+[Canada](caravan_catchments_map_Canada.html)<br>
+[Mexico](caravan_catchments_map_Mexico.html)<br>
+[Germany](caravan_catchments_map_Germany.html)<br>
+[Switzerland](caravan_catchments_map_Switzerland.html)<br>
+[Austria](caravan_catchments_map_Austria.html)<br>
+[Lichtenstein](caravan_catchments_map_Lichtenstein.html)<br>
+[Czech Republic](caravan_catchments_map_Czech_Republic.html)<br>
+
+If you are on eWaterCycle version >2.5.0 + on SRC and 4TU is giving errors, run this in terminal.
+```
+export CARAVAN_CACHE=/data/shared/climate-data/caravan
+```
