@@ -34,6 +34,11 @@ To get this dataset on SRC run this in terminal:
 ```
 export CARAVAN_CACHE=/data/shared/climate-data/caravan1_6
 ```
+or in a notebook:
+```
+import os
+os.environ["CARAVAN_CACHE"] = "/data/shared/climate-data/caravan1_6"
+```
 
 NOTE: need eWaterCycle version 2.5 for Caravan 1.6
 
@@ -59,4 +64,9 @@ NOTE: need eWaterCycle version 2.5 for Caravan 1.6
 If you are on eWaterCycle version >2.5.0 + on SRC and 4TU is giving errors, run this in terminal.
 ```
 export CARAVAN_CACHE=/data/shared/climate-data/caravan
+```
+or in a notebook:
+```
+import os
+os.environ["CARAVAN_CACHE"] = "/data/shared/climate-data/caravan"
 ```
